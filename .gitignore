@@ -1,0 +1,72 @@
+# C-101 Project .gitignore
+# Ignore build artifacts and temporary files
+
+# Build directories and compiled files
+**/build/
+**/bin/
+*.o
+*.obj
+*.exe
+*.out
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+
+# Core dumps and debugging files
+core
+core.*
+*.core
+vgcore.*
+*.dSYM/
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Temporary and backup files
+*.tmp
+*.temp
+*.bak
+*.orig
+*.log
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Test output files
+test_output.txt
+*.test_log
+
+# Package manager files (if using)
+node_modules/
+.npm/
+
+# Compressed files (usually not source code)
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Documentation build files
+docs/_build/
+*.pdf
+*.ps
+
+# Local configuration files
+.env
+.env.local
+config.local
