@@ -97,7 +97,7 @@ c-101/
 
 ## 📖 Learning Path
 
-1. **Hello World** — your first C program
+1. **Hello World**(lessons/01_hello_world/) — your first C program
 2. **Variables & I/O** — printf, scanf, data types
 3. **Control Flow** — if, switch, loops
 4. **Functions & Headers** — modular code, header files
