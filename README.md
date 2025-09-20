@@ -43,7 +43,22 @@ Format all source files (requires clang-format):
 make format
 ```
 
+Work with individual lessons:
+
+```bash
+# Build and run a specific lesson
+make -C lessons/01_hello_world run
+
+# Test a specific lesson
+make -C lessons/01_hello_world test
+
+# Dry run (show commands without executing) for a lesson
+make -n -C lessons/01_hello_world run
+```
+
 ---
+
+
 
 ## 📂 Repository Structure
 
